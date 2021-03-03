@@ -1,1 +1,6 @@
-SELECT author, COUNT(*) FROM books GROUP BY author;
+SELECT  author, max price, COUNT(*) 
+
+FROM books 
+
+GROUP BY author
+
